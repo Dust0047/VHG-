@@ -11,6 +11,8 @@ import Scout from './views/Scout';
 import Test from './views/Test';
 import NotFound from './views/NotFound';
 
+import './scss/main.scss';
+
 Vue.use(VueRouter)
 
 Vue.config.productionTip = false

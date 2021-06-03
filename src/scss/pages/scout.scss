@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@media only screen and (min-width: 1200px) {
+  //   .my-text-block {
+
+  //     h3 {
+  //       padding: 3% 0 3% 0;
+  //     }
+
+  //     div {
+  //       padding-bottom: 3%;
+  //     }
+  //   }
+
+  // .register {
+  //   padding: 5vh;
+  //   display: flex;
+  //   flex-direction: column;
+
+  //   h2 {
+  //     padding-bottom: 5vh;
+  //   }
+
+  //}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) { 
+  .scout-text {
+    div {
+      padding: 3vw 3vw 0vw 3vw;
+    }
+  }
+
+  .blue-btn {
+    background-color: rgb(50, 63, 90);
+    color: white;
+    align-self: center;
+    padding: 10px;
+    margin-bottom: 5vh;
+  }
+
+  .my-text-block {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+  // .my-text-block {
+  //   width: 90vw;
+
+  //   h2 {
+  //     padding-bottom: 1vh;
+  //   }
+
+  //   h3 {
+  //     text-align: center;
+  //     padding-bottom: 5vh;
+  //   }
+
+  //   .my-sub-title {
+  //     text-align: center;
+  //     padding-bottom: 1vh;
+  //   }
+
+  //   div {
+  //     padding-bottom: 3vh;
+  //   }
+  // }
+
+  // .register {
+  //   padding: 5vh;
+  // }
+
+  // .info-box {
+  //   color: white;
+
+  //   .wrap {
+  //     width: unset;
+  //     display: flex;
+  //     justify-content: space-around;
+  //     flex-direction: column;
+
+  //     h2 {
+  //       padding-bottom: 5vw;
+  //     }
+  //   }
+  // }
+
+  .blue-btn {
+    background-color: rgb(50, 63, 90);
+    color: white;
+    align-self: center;
+    padding: 10px;
+  }
+}

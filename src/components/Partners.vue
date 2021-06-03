@@ -28,14 +28,14 @@ export default {};
     }
   }
   .partners {
-    width: 40vw;
+    width: 70vw;
     h2 {
       text-align: center;
       padding: 2vw 0 2vw 0;
     }
     p {
       padding-bottom: 2vw;
-      line-height: 30px;
+      line-height: 36px;
     }
     .part-image {
       margin: auto auto;

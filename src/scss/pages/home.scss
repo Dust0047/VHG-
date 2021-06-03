@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.actual-img {
+  width: 100vw;
+}
+
+.cabin-images {
+  padding-top: 5vh;
+  display: flex;
+  .cab-img {
+    width: 50%;
+    flex-direction: row;
+  }
+}
+
+
+
+//LANDING
+$green: #276859;
+.my-green {
+  background-color: $green;
+}
+.my-white {
+  background-color: #ffffff;
+}
+.landing-info,
+.landing-wrap {
+  color: white;
+  text-align: center;
+}
+
+.landing-info {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  .info-wrap {
+    width: 100vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    padding: 10px;
+    margin-left: 20px;
+    .text {
+      flex-direction: column;
+      display: flex;
+      height: 160px;
+      padding: 25px;
+      h2 {
+        padding-bottom: 3%;
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+        height: 110px;
+      }
+    }
+    .icon {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      .info-icon {
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+//Mobile-Landing
+$green: #276859;
+.my-container {
+  background-color: #1e2430;
+  div {
+    color: white;
+    display: flex;
+    padding: 2%;
+    .mobile-info {
+      background-color: $green;
+      width: 80%;
+      flex-direction: column;
+      h2 {
+        text-transform: uppercase;
+      }
+    }
+    .scroll-btn {
+      justify-content: center;
+      width: 20%;
+      background-color: $green;
+      .icon {
+        align-self: center;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .front-quote {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    h3 {
+      align-self: center;
+      width: 70%;
+      font-size: 22px;
+      font-style: italic;
+      line-height: 42px;
+      padding: 5vh 0 5vh 0;
+    }
+    .btn {
+      background: green;
+      margin-bottom: 5vh;
+      .link {
+        color: black;
+      }
+    }
+  }
+
+  .meeting-time {
+    width: 50vw;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      padding-top: 5vh;
+      text-transform: uppercase;
+      width: 70%;
+      align-self: center;
+      padding-bottom: 2vh;
+    }
+    p {
+      width: 70%;
+      padding-bottom: 5vh;
+      align-self: center;
+    }
+    div {
+      padding-bottom: 10px;
+      width: 60%;
+      align-self: center;
+      padding-bottom: 2vw;
+      h3 {
+        font-size: 20px;
+        color: $green;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+      }
+      h4 {
+        text-align: left;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .actual {
+    width: 50vw;
+    margin-bottom: 5vh;
+    line-height: 36px;
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      padding: 20px 0 20px 0;
+    }
+  }
+
+  .cabin-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5vh 0 5vh 0;
+  }
+  .fee {
+    width: 50vw;
+    padding: 40px 10px 40px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .btn-wrap {
+      display: flex;
+      justify-content: center;
+      margin: auto auto;
+      .btn {
+        background-color: $green;
+        color: white;
+      }
+    }
+    .fee-text {
+      width: 60%;
+      h2 {
+        text-align: left;
+        line-height: 42px;
+        font-size: 30px;
+        padding: 20px 10px 40px 10px;
+      }
+      h3 {
+        font-size: 24px;
+        padding-bottom: 2vh;
+      }
+      p {
+        text-align: left;
+        font-weight: 500;
+        line-height: 30px;
+      }
+    }
+  }
+  .landing-wrap {
+    h1 {
+      margin-top: 15vh;
+      font-size: 50px;
+    }
+    h2 {
+      padding-bottom: 30px;
+      text-transform: uppercase;
+    }
+    div {
+      padding-bottom: 3vw;
+
+      .landing-btn {
+        width: 220px;
+        height: 55px;
+        margin-right: 1%;
+        text-transform: uppercase;
+        font-weight: 700;
+        .link-white,
+        .link-black {
+          text-decoration: none;
+        }
+        .link-white {
+          color: white;
+        }
+        .link-black {
+          color: black;
+        }
+      }
+    }
+  }
+  .landing-info {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+
+  .fee {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      .btn {
+        background-color: $green;
+        color: white;
+        margin-bottom: 5vh;
+        .link {
+          text-decoration: none;
+          color: black;
+          
+        }
+      }
+    .fee-text {
+      width: 90%;
+      margin: 5vh 0 2vh 0;
+      h2 {
+        text-align: left;
+        line-height: 42px;
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 24px;
+        padding-bottom: 2vh;
+      }
+      p {
+        text-align: left;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .meeting-time {
+    width: 100vw;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      padding-top: 5vh;
+      text-transform: uppercase;
+      width: 70%;
+      align-self: center;
+      padding-bottom: 2vh;
+    }
+    p {
+      width: 70%;
+      padding-bottom: 5vh;
+      align-self: center;
+    }
+    div {
+      padding-bottom: 10px;
+      width: 60%;
+      align-self: center;
+      padding-bottom: 5vw;
+      h3 {
+        font-size: 20px;
+        color: $green;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+      }
+      h4 {
+        text-align: left;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  //LANDING
+  .landing-wrap {
+    h1 {
+      margin-top: 8vh;
+      font-size: 50px;
+    }
+    h2 {
+      padding-bottom: 30px;
+      text-transform: uppercase;
+    }
+    div {
+      padding-bottom: 3vw;
+      .landing-btn {
+        width: 220px;
+        height: 55px;
+        margin-right: 1%;
+        text-transform: uppercase;
+        font-weight: 700;
+        .link-white,
+        .link-black {
+          text-decoration: none;
+        }
+        .link-white {
+          color: white;
+        }
+        .link-black {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .landing-info,
+  .landing-wrap {
+    color: white;
+    text-align: center;
+  }
+  .landing-info {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    height: auto;
+    .info-wrap {
+      width: 100vw;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      height: 280px;
+      padding: 10px;
+      margin-left: 20px;
+      .text {
+        flex-direction: column;
+        display: flex;
+        height: auto;
+        padding: 25px;
+        h2 {
+          padding-bottom: 3%;
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+          height: 110px;
+        }
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        .info-icon {
+          font-size: 34px;
+        }
+      }
+    }
+  }
+
+  .front-quote {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    h3 {
+      align-self: center;
+      width: 80%;
+      font-size: 22px;
+      font-style: italic;
+      line-height: 42px;
+      padding: 5vh 0 5vh 0;
+    }
+    .btn {
+      background: green;
+      margin-bottom: 5vh;
+      .link {
+        color: black;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+  .my-res-small {
+    width: 90vw;
+    padding: 0 0 0 0;
+  }
+  .info-box {
+    color: white;
+    .mobile-fee {
+      display: flex;
+      flex-direction: column;
+      div {
+        width: 80vw;
+        padding: 0px 0px 0px 0px;
+        p {
+          padding: 0;
+          width: 70vw;
+        }
+      }
+    }
+    .wrap {
+      width: 90vw;
+      text-align: left;
+      padding: 40px 10px 40px 50px;
+      h2 {
+        text-align: center;
+        line-height: 42px;
+        font-size: 25px;
+        padding: 20px 0 40px 0;
+      }
+      .btn {
+        background-color: $green;
+        color: white;
+      }
+    }
+  }
+  .meeting-time {
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    div {
+      padding-bottom: 10px;
+      width: 90%;
+      align-self: center;
+      padding-bottom: 5vw;
+      h3 {
+        font-size: 18px;
+      }
+      h4 {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .actual {
+    .cabin-title {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 5vh 0 0 0;
+      font-size: 1.6rem;
+    }
+  }
+  .fee {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .btn-wrap {
+      display: flex;
+      justify-content: center;
+      .btn {
+        background-color: $green;
+        color: white;
+        margin: 0vh 0 3vh 0;
+      }
+    }
+    .fee-text {
+      width: 90%;
+      margin: 5vh 0 2vh 0;
+      h2 {
+        text-align: left;
+        line-height: 42px;
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 24px;
+        padding-bottom: 2vh;
+      }
+      p {
+        text-align: left;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .landing-wrap {
+    h1 {
+      margin-top: 15vh;
+      font-size: 32px;
+    }
+    h2 {
+      padding-bottom: 30px;
+      text-transform: uppercase;
+    }
+    div {
+      padding-bottom: 4vw;
+
+      .btn {
+        padding: 15px 30px 15px 30px;
+        margin-right: 1%;
+        min-width: 220px;
+        margin-bottom: 2vh;
+        text-transform: uppercase;
+        font-weight: 700;
+        .link-white,
+        .link-black {
+          text-decoration: none;
+        }
+        .link-white {
+          color: white;
+        }
+        .link-black {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .meeting-time {
+    width: 50vw;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      padding-top: 5vh;
+      text-transform: uppercase;
+      width: 70%;
+      align-self: center;
+      padding-bottom: 2vh;
+    }
+    p {
+      width: 70%;
+      padding-bottom: 5vh;
+      align-self: center;
+    }
+    div {
+      padding-bottom: 10px;
+      width: 60%;
+      align-self: center;
+      padding-bottom: 2vw;
+      h3 {
+        font-size: 20px;
+        color: $green;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+      }
+      h4 {
+        text-align: left;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .landing-wrap {
+    h1 {
+      margin-top: 15vh;
+      
+    }
+    h2 {
+      padding-bottom: 30px;
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+    div {
+      padding-bottom: 3vw;
+      .landing-btn {
+        width: 200px;
+        height: 50px;
+        margin-top: 1vh;
+        text-transform: uppercase;
+        font-weight: 700;
+        .link-white,
+        .link-black {
+          text-decoration: none;
+        }
+        .link-white {
+          color: white;
+        }
+        .link-black {
+          color: black;
+        }
+      }
+    }
+  }
+}

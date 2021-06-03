@@ -1,5 +1,14 @@
 <template>
   <v-content>
+              <v-card>
+      <v-img src="../assets/images/coverbillede-cover.jpg" height="25vh">
+        <Navigation />
+        <div class="head">
+          <h3></h3>
+          <h1></h1>
+        </div>
+      </v-img>
+    </v-card>
     <v-container>
       <div class="block text-center notFound">
         <h2>Page not found</h2>
@@ -11,9 +20,15 @@
 </template>
 
 <script>
+import Navigation from "../components/common/Navigation.vue";
+
 export default {
   name: "NotFound",
 
+  components: {
+    Navigation,
+
+  },
   data() {
     return {
       items: []

@@ -28,7 +28,6 @@
         </div>
       </div>
     </v-container>
-     <div>
     <iframe
             class="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2261.0403699158423!2d8.446289515919961!3d55.47939418048115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
@@ -40,9 +39,6 @@
           >
           </iframe>
   </div>
-  
-  </div>
- 
 </template>
 
 <script>
@@ -50,15 +46,13 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (max-width: 1904px) and (min-width: 600px) {
+@media only screen and (min-width: 1200px) {
   .contact {
-        width: 55vw;
+        width: 50vw;
         padding: 2% 0% 0% 0%;
     h2 {
       padding: 10px 0 10px 0;
       text-transform: uppercase;
-    }
-    h4 {
     }
     h5 {
       font-size: 16px;
@@ -70,6 +64,28 @@ export default {};
       div {
         width: 50%;
         padding-top: 4%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .contact {
+        width: 70vw;
+        padding: 5vh 0 5vh 0;
+    h2 {
+      padding: 10px 0 10px 0;
+      text-transform: uppercase;
+    }
+    h5 {
+      font-size: 16px;
+    }
+    .wrap {
+      display: flex;
+      flex-flow: wrap;
+      div {
+        width: 100%;
+        padding-top: 5%;
       }
     }
   }

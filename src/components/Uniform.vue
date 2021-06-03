@@ -12,11 +12,8 @@
 
         Mikrospejdere behøver ikke at anskaffe en spejderuniform. Øvrige
         uniformsgenstande og udstyr kan købes i Spejdersport. <br />
-        <br />
-        På tegningen kan ses, hvor de forskellige mærker skal sidde på
-        uniformen.
       </p>
-      <v-img class="my-img" src="../assets/images/img4.jpg"></v-img>
+      <v-img class="my-img" src="../assets/images/uniformerpar.jpeg"></v-img>
     </v-container>
   </div>
 </template>
@@ -28,7 +25,7 @@ export default {};
 <style lang="scss" scoped>
 @media only screen and (max-width: 1904px) and (min-width: 600px) {
   .my-text-block {
-    width: 40vw;
+    width: 50vw;
     padding-bottom: 10vh;
 
     h2 {
@@ -36,7 +33,29 @@ export default {};
       text-transform: uppercase;
       padding: 5vh;
     }
+
+    p {
+      line-height: 36px;
+    }
   }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) { 
+  .my-text-block {
+    width: 70vw;
+    padding-bottom: 10vh;
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 5vh;
+    }
+
+    p {
+      line-height: 36px;
+    }
+  }
+
 }
 
 @media only screen and (max-width: 600px) and (min-width: 0px) {

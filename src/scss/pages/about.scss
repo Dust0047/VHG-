@@ -1,0 +1,385 @@
+//$green: #276859;
+
+$my-title-size: 34px;
+
+// .my-blue {
+//   background-color: #1e2430;
+// }
+
+// .my-green {
+//   background-color: $green;
+// }
+
+.my-green-text {
+  color: $green;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  width: 160px;
+  height: 40px;
+  margin: auto auto;
+  .btn-link {
+    text-decoration: none;
+    color: black;
+  }
+}
+.practical {
+  .img {
+    max-height: 200px;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    .head {
+      h2 {
+        font-size: 32px;
+      }
+    }
+  }
+}
+.my-list {
+  padding: 5vh 5vh 5vh 5vh;
+  width: 50vw;
+  h3 {
+    color: $green;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 20px 0px 20px 0px;
+  }
+  p {
+    padding-bottom: 30px;
+  }
+}
+.info-box {
+  color: white;
+  .wrap {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    div {
+      width: 40%;
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+.my-text-block {
+  width: 50vw;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% 5% 0% 5%;
+  }
+  h4 {
+    text-align: center;
+  }
+  p {
+    padding: 5%;
+    line-height: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .cover-wrap {
+    width: 50vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    h2 {
+      padding: 20px;
+      text-transform: uppercase;
+    }
+    .cover-lay {
+      background-color: rgba(30, 36, 48, 0.9);
+      color: white;
+      width: 80%;
+      position: relative;
+      margin-top: -25%;
+      align-self: center;
+      padding: 5% 10% 5% 10%;
+      h4 {
+        padding-bottom: 5%;
+      }
+      p {
+        line-height: 30px;
+      }
+    }
+  }
+
+  .focus-wrap {
+    width: 50vw;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    .focus-box {
+      background-color: $green;
+      color: white;
+      width: 80%;
+      position: relative;
+      margin-top: -10%;
+      align-self: center;
+      text-align: center;
+      padding: 10% 10% 0 10%;
+      text-align: left;
+      div {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 5vh;
+        padding-bottom: 2%;
+      }
+    }
+  }
+  .units {
+    width: 50vw;
+    h2 {
+      font-size: 32px;
+      padding-bottom: 1vh;
+      text-transform: uppercase;
+    }
+    p {
+      padding-bottom: 5vh;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      a {
+        text-decoration: none;
+        li {
+          color: $green;
+          font-weight: 700;
+          font-size: 22px;
+          padding-bottom: 5vh;
+          list-style: none;
+        }
+      }
+    }
+  }
+  .goal-box {
+    padding: 5vh 0 5vh 0;
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      div {
+        h2 {
+          text-align: left;
+          text-transform: uppercase;
+          padding-bottom: 10px;
+        }
+        p {
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .cover-wrap {
+    width: 60vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    h2 {
+      padding: 20px;
+      text-transform: uppercase;
+    }
+    .cover-lay {
+      background-color: rgba(30, 36, 48, 0.9);
+      color: white;
+      width: 80%;
+      position: relative;
+      margin-top: -25%;
+      align-self: center;
+      padding: 5% 10% 5% 10%;
+      h4 {
+        padding-bottom: 5%;
+      }
+      p {
+        line-height: 30px;
+      }
+    }
+  }
+  .focus-wrap {
+    width: 60vw;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    .focus-box {
+      background-color: $green;
+      color: white;
+      width: 80%;
+      position: relative;
+      margin-top: -10%;
+      align-self: center;
+      text-align: center;
+      padding: 10% 10% 0 10%;
+      text-align: left;
+      div {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 5vh;
+        padding-bottom: 2%;
+      }
+    }
+  }
+  .units {
+    width: 50vw;
+    h2 {
+      font-size: 32px;
+      padding-bottom: 1vh;
+      text-transform: uppercase;
+    }
+    p {
+      padding-bottom: 5vh;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      a {
+        text-decoration: none;
+        li {
+          color: $green;
+          font-weight: 700;
+          font-size: 22px;
+          padding-bottom: 5vh;
+          list-style: none;
+        }
+      }
+    }
+  }
+  .goal-box {
+    padding: 5vh 0 5vh 0;
+    .wrap {
+      display: flex;
+      flex-direction: row;
+      width: 80vw;
+      div {
+        h2 {
+          text-align: left;
+          text-transform: uppercase;
+          padding-bottom: 10px;
+        }
+        p {
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+  .cover-wrap {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    h2 {
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    .cover-lay {
+      background-color: rgba(30, 36, 48, 0.9);
+      color: white;
+      width: 90%;
+      position: relative;
+      margin-top: -25%;
+      align-self: center;
+      padding: 5% 10% 5% 10%;
+      h4 {
+        padding-bottom: 5%;
+      }
+      p {
+        line-height: 30px;
+      }
+    }
+  }
+  .my-res-small {
+    width: 90vw;
+    padding: 0 0 0 0;
+  }
+  .my-list {
+    width: 100vw;
+  }
+  .focus-wrap {
+    width: 100vw;
+  }
+  .units {
+    h2 {
+      text-align: center;
+      padding-bottom: 2vh;
+    }
+    h4 {
+      text-align: center;
+      padding-bottom: 5vh;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      p {
+        align-self: center;
+        color: $green;
+        font-weight: 700;
+        font-size: 22px;
+        padding-bottom: 1vh;
+      }
+    }
+  }
+  .info-box {
+    color: white;
+    .wrap {
+      width: 100vw;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      div {
+        width: 90%;
+        p {
+          line-height: 30px;
+          padding: 5%;
+        }
+      }
+    }
+  }
+  .goal-box {
+    h2 {
+      text-transform: uppercase;
+      padding-left: 2vh;
+    }
+  }
+  .units {
+    h2 {
+      font-size: 26px;
+      padding-bottom: 1vh;
+      text-transform: uppercase;
+    }
+    p {
+      padding-bottom: 5vh;
+      text-align: center;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        color: $green;
+        font-weight: 700;
+        font-size: 22px;
+        padding-bottom: 5vh;
+        list-style: none;
+      }
+    }
+  }
+}
