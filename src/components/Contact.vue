@@ -28,7 +28,21 @@
         </div>
       </div>
     </v-container>
+     <div>
+    <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2261.0403699158423!2d8.446289515919961!3d55.47939418048115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+              .1!3m3!1m2!1s0x464b20d8442ed02d%3A0x2a118d81eb2fdc8c!2sBakkevej%2014%2C%206700%20Esbjerg!5e0!3m2!1sda!2sdk!4v1621855267443!5m2!1sda!2sdk"
+            width="100%"
+            height="250px"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
   </div>
+  
+  </div>
+ 
 </template>
 
 <script>
