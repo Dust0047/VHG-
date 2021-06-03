@@ -25,7 +25,7 @@
     justify-content: center;
     width: 100vw;
     .nav-btn {
-      padding: 20px 30px 20px 30px;
+      padding: 20px 20px 20px 30px;
       text-decoration: none;
       text-align: center;
       border-bottom: 2px solid #c7c7c7;
@@ -38,14 +38,14 @@
       }
     }
   }
-  .my-mobile-nav {
-    display: flex;
-    justify-content: flex-end;
+  // .my-mobile-nav {
+  //   display: flex;
+  //   justify-content: flex-end;
 
-    .mobile-nav-icon {
-      padding: 2%;
-    }
-  }
+  //   .mobile-nav-icon {
+  //     padding: 2%;
+  //   }
+  // }
 }
 
 @media only screen and (min-width: 1200px) {

@@ -23,6 +23,16 @@ $blue: #1e2430;
   text-decoration: none;
 }
 
+.green-btn {
+  background-color: $green;
+  width: 180px;
+  height: 40px;
+
+  .link {
+    color: white;
+  }
+}
+
 
 
 

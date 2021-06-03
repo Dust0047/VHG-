@@ -11,13 +11,13 @@
 
     <v-container class="actual scout-text">
       <h2>Bliv spejder i vesterhavsgruppen</h2>
-      <p>Her kan du læse om hvordan du kan blive spejder i Vesterhavsgruppen</p>
+      <h4>Her kan du læse om hvordan du kan blive spejder i Vesterhavsgruppen</h4>
       <h3>Hvis du vil være spejder i Vesterhavsgruppen kan du:</h3>
       <div>
         <h3>Kontakte gruppeledere</h3>
         <p>
-          kontakte en af vores gruppeledere, Hélen eller Steffen <br> på telefon: 
-         <b>21 67 73 57 / 40 29 26 71</b> <br> eller på mail: <b>kontakt@vesterhavsgruppen.dk</b>
+          kontakte en af vores gruppeledere, Hélen eller Steffen på telefon: 
+         <b>21 67 73 57 / 40 29 26 71</b>  eller på mail: <b>kontakt@vesterhavsgruppen.dk</b>
         </p>
       </div>
       <div>
@@ -29,7 +29,7 @@
       </div>
     </v-container>
 
-    <div class="info-box my-green ">
+    <div class="info-box my-green">
       <v-container class="front-quote">
         <h3>
           Du kan finde en online tilmeldingeblanket ved at trykke på knappen her
@@ -38,7 +38,7 @@
       </v-container>
     </div>
 
-    <v-container class="cover-wrap my-text-block">
+    <v-container class="cover-wrap scout-wrap my-text-block">
       <h2 class="my-title">flere oplysninger om tilmeldning</h2>
       <v-img class="cover-image" src="../assets/images/scout1.jpg"> </v-img>
       <div class="cover-lay">
@@ -51,7 +51,7 @@
       </div>
     </v-container>
 
-    <v-container class="cover-wrap my-text-block">
+    <v-container class="cover-wrap scout-wrap my-text-block">
       <v-img class="cover-image" src="../assets/images/scout2.jpg"> </v-img>
       <div class="cover-lay">
         <h4>Første mødedag</h4>
@@ -62,7 +62,7 @@
       </div>
     </v-container>
 
-    <v-container class="cover-wrap my-text-block">
+    <v-container class="cover-wrap scout-wrap my-text-block">
       <v-img class="cover-image" src="../assets/images/scout3.jpg"> </v-img>
 
       <div class="cover-lay">
@@ -82,7 +82,7 @@
       <Payment />
     </div>
 
-    <v-container class="my-text-block">
+    <v-container class="my-text-block learn-more">
       <h2>Er du interesseret i at læse mere</h2>
       <p>
         Er du intresseret i at læse mere om Det Danske Spejderkorps så kig på

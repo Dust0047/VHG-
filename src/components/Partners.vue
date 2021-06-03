@@ -1,6 +1,6 @@
 <template>
-  <v-container class="mobile-text-block my-res-small partners">
-    <h2 class="my-center">VORES SAMARBEJDS PARTNER</h2>
+  <v-container class="my-res-small partners">
+    <h2>VORES SAMARBEJDS PARTNER</h2>
     <p>
       Vesterhavsgruppen har en sponsoraftale med OK som indebærer, at OK støtter
       os økonomiskhver gang nogen bestiller et OK-kort gennem os og hver gang
@@ -20,13 +20,7 @@ export default {};
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 1904px) and (min-width: 600px) {
-  .my-text-block {
-    width: 40vw;
-    h2 {
-      text-align: center;
-      text-transform: uppercase;
-    }
-  }
+
   .partners {
     width: 70vw;
     h2 {
@@ -45,27 +39,29 @@ export default {};
 }
 
 @media only screen and (max-width: 600px) and (min-width: 0px) {
+
+
   .my-res-small {
     width: 90vw;
   }
   .mobile-sub-header {
     font-size: 14px;
   }
-  .mobile-text-block {
-    width: 80vw;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
     h2 {
       text-align: center;
       text-transform: uppercase;
-      padding-top: 20vh;
+      padding: 5vh 0 0 0;
     }
-
     p {
       width: 90vw;
       padding: 5%;
+      line-height: 30px;
     }
-  }
+    .part-image {
+      margin: auto auto;
+      width: 25vw;
+    }
+  
   .partners {
     padding-bottom: 10vw;
   }

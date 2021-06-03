@@ -119,37 +119,41 @@
       text-align: center;
       display: flex;
       flex-direction: column;
-  
       .footer-wrap {
         width: 100vw;
-  
+        h4 {
+          padding: 2%;
+        }
         h2 {
           font-size: 30px;
-          padding: 0px 0px 0px 0px;
+          padding: 3vh 0px 0px 0px;
         }
-  
         h3 {
           padding: 0px 0px 0px 0px;
         }
-  
         div {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           justify-content: space-around;
           padding: 10px 0 10px 0;
+          .icon {
+            width: 100%;
+            font-size: 50px;
+            a {
+              color: whitesmoke;
+            }
+          }
           div {
             width: 75%;
             flex-direction: column;
             text-align: left;
             justify-content: space-around;
             align-self: center;
-  
             h3 {
               font-size: 22px;
               width: 100%;
             }
-  
             p {
               width: 80%;
               line-height: 30px;

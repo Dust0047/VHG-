@@ -41,7 +41,7 @@
               på Facebook for mere
             </p>
             <div class="icon">
-              <a href="https://www.facebook.com">
+              <a href="https://www.facebook.com/Vesterhavsgruppen-DDS-908378059235877">
                 <i class="fab fa-facebook-square"></i>
               </a>
             </div>

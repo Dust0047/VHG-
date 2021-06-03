@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-card>
-          <v-img src="../assets/images/banner1.jpg" height="25vh">
+          <v-img src="../assets/images/coverbillede-cover.jpg" height="25vh">
             <Navigation />
             <div class="head">
               <h2>Om gruppen</h2>

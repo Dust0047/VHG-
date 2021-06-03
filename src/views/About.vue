@@ -17,7 +17,7 @@
       </v-img>
     </v-card>
     <v-container class="actual my-res-small">
-      <h2 class="my-title">Om Vesterhavsgruppen</h2>
+      <h2 class="my-title-center">Om Vesterhavsgruppen</h2>
       <p>
         <b>
           Vesterhavsgruppen er en gammel gruppe i Esbjerg, vi dækker hele

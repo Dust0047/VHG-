@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card>
-      <v-img src="../assets/images/banner1.jpg" height="25vh">
+      <v-img src="../assets/images/scout-head-lay.jpg" height="25vh">
         <Navigation />
         <div class="head">
           <h2>Om gruppen</h2>
@@ -60,98 +60,209 @@
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
+          src="../assets/images/gallery/gal3.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal4.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal5.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal6.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal7.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal8.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
           src="../assets/images/gallery/gal1.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
           src="../assets/images/gallery/gal2.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal3.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal4.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal5.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal6.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal7.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal8.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal1.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal2.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal4.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal5.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal6.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal7.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal8.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
       <div class="gallery-wrap-image">
         <v-img
           class="gallery-image"
-          src="../assets/images/front-main-lay.png"
+          src="../assets/images/gallery/gal1.jpg"
         ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
+      </div>
+      <div class="gallery-wrap-image">
+        <v-img
+          class="gallery-image"
+          src="../assets/images/gallery/gal2.jpg"
+        ></v-img>
+        <p class="gallery-text">
+          Alt muligt tekst som kan tilpasses som man har lyst til
+        </p>
       </div>
     </v-container>
   </div>

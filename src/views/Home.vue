@@ -73,7 +73,7 @@
 
     <v-container class="my-container hidden-sm-and-up">
       <div>
-        <div class="mobile-info">
+        <div class="mobile-info" @click="goto('actual')">
           <h2>Aktuelt</h2>
           <p>
             Da vi stadig er påvirket af Coronavirus vil vi gerne vide, hvor
@@ -91,7 +91,7 @@
       </div>
 
       <div>
-        <div class="mobile-info" @click="goto('art1')">
+        <div class="mobile-info" @click="goto('practical')">
           <h2>Praktisk</h2>
           <p>
             Her kan du finde praktiske oplysninger bl.a. om Vesterhavsgruppens
@@ -107,7 +107,7 @@
       </div>
 
       <div>
-        <div class="mobile-info">
+        <div class="mobile-info" @click="goto('contact')">
           <h2>Kontakt</h2>
           <p>
             Da vi stadig er påvirket af Coronavirus vil vi gerne vide, hvor
@@ -133,14 +133,14 @@
           værdier, som Det Danske Spejderkorps og Vesterhavsgruppen i Esbjerg
           arbejder efter.
         </h3>
-        <v-btn class="btn">
+        <button class="green-btn">
           <router-link class="link" to="/about">Læs Mere</router-link>
-        </v-btn>
+        </button>
       </v-container>
     </div>
 
     <v-container ref="actual" class="actual my-res-small">
-      <h2 class="my-center">Aktuelt</h2>
+      <h2 class="my-title-center">Aktuelt</h2>
       <h4>Velkommen til 2021.</h4>
       <p>
         2020 har været et mærkeligt år, hvor vi har måttet ændre planer for
@@ -181,7 +181,7 @@
       </v-container>
     </div>
 
-    <v-container class="meeting-time my-res-small">
+    <v-container class="meeting-time">
       <h2>Mødetider for afdelinger</h2>
       <p>Vi mødes på bakkevej 14, 6700 Esbjerg</p>
 
@@ -219,8 +219,8 @@
       </v-img>
     </div>
 
-    <v-container class="actual my-res-small">
-      <h2 class="cabin-title">Vesterhavsgruppens hytter</h2>
+    <v-container class="actual my-res-small cabin-block">
+      <h3>Vesterhavsgruppens hytter</h3>
       <p>
         Gruppen har en mødehytte på Bakkevej 14, på en grund vi deler med Sct.
         Georgsgilderne, De Grønne Pigespejdere og FDF. <br />
@@ -256,11 +256,12 @@
             Kontinget er på 850 kr. årligt, som opkræves i 2 halvårlige rater.
           </p>
         </div>
-        <v-btn class="btn"
+        <div class="fee-btn">
+        <button class="green-btn"
           ><router-link class="link" to="/scout"
             >Tilmelding</router-link
-          ></v-btn
-        >
+          ></button
+        ></div>
       </v-container>
     </div>
     <Uniform />
@@ -272,23 +273,19 @@
 </template>
 
 <script>
-// import Landing from "../components/Landing.vue";
 import Contact from "../components/Contact.vue";
 import Partners from "../components/Partners.vue";
 import Uniform from "../components/Uniform.vue";
 import Navigation from "../components/common/Navigation.vue";
-// import InfoMobile from "../components/InfoMobile.vue";
 
 export default {
   name: "App",
 
   components: {
-    // Landing,
     Contact,
     Partners,
     Uniform,
     Navigation,
-    // InfoMobile,
   },
   methods: {
     goto(refName) {

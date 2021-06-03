@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+$green: #276859;
+
 .actual-img {
   width: 100vw;
 }
@@ -13,10 +15,8 @@
   }
 }
 
-
-
 //LANDING
-$green: #276859;
+
 .my-green {
   background-color: $green;
 }
@@ -66,52 +66,63 @@ $green: #276859;
   }
 }
 
-//Mobile-Landing
-$green: #276859;
-.my-container {
-  background-color: #1e2430;
-  div {
-    color: white;
-    display: flex;
-    padding: 2%;
-    .mobile-info {
-      background-color: $green;
-      width: 80%;
-      flex-direction: column;
-      h2 {
-        text-transform: uppercase;
+@media only screen and (min-width: 1200px) {
+  .my-blue {
+    .fee {
+      .fee-text {
+        padding: 5%;
+      }
+      .fee-btn {
+        .green-btn {
+          background-color: $green;
+          width: 180px;
+          height: 40px;
+          align-self: center;
+          margin-bottom: 5vh;
+          .link {
+            color: white;
+          }
+        }
       }
     }
-    .scroll-btn {
-      justify-content: center;
-      width: 20%;
-      background-color: $green;
-      .icon {
+    
+    .front-quote {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      h3 {
         align-self: center;
-        font-size: 30px;
+        width: 60%;
+        font-size: 22px;
+        font-style: italic;
+        line-height: 42px;
+        padding: 5vh 0 5vh 0;
+      }
+      .green-btn {
+        background-color: $green;
+        width: 180px;
+        height: 40px;
+        align-self: center;
+        margin-bottom: 5vh;
+        .link {
+          color: white;
+        }
       }
     }
   }
-}
 
-@media only screen and (min-width: 1200px) {
-  .front-quote {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    h3 {
-      align-self: center;
-      width: 70%;
-      font-size: 22px;
-      font-style: italic;
-      line-height: 42px;
-      padding: 5vh 0 5vh 0;
-    }
-    .btn {
-      background: green;
-      margin-bottom: 5vh;
-      .link {
-        color: black;
+  .my-green {
+    .front-quote {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      h3 {
+        align-self: center;
+        width: 60%;
+        font-size: 22px;
+        font-style: italic;
+        line-height: 42px;
+        padding: 5vh 0 5vh 0;
       }
     }
   }
@@ -163,11 +174,6 @@ $green: #276859;
     }
   }
 
-  .cabin-title {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 5vh 0 5vh 0;
-  }
   .fee {
     width: 50vw;
     padding: 40px 10px 40px 50px;
@@ -202,6 +208,7 @@ $green: #276859;
       }
     }
   }
+
   .landing-wrap {
     h1 {
       margin-top: 15vh;
@@ -213,7 +220,6 @@ $green: #276859;
     }
     div {
       padding-bottom: 3vw;
-
       .landing-btn {
         width: 220px;
         height: 55px;
@@ -239,22 +245,20 @@ $green: #276859;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 600px) {
-
   .fee {
     width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-      .btn {
-        background-color: $green;
-        color: white;
-        margin-bottom: 5vh;
-        .link {
-          text-decoration: none;
-          color: black;
-          
-        }
+    .btn {
+      background-color: $green;
+      color: white;
+      margin-bottom: 5vh;
+      .link {
+        text-decoration: none;
+        color: black;
       }
+    }
     .fee-text {
       width: 90%;
       margin: 5vh 0 2vh 0;
@@ -321,7 +325,7 @@ $green: #276859;
       text-transform: uppercase;
     }
     div {
-      padding-bottom: 3vw;
+      padding-bottom: 10vw;
       .landing-btn {
         width: 220px;
         height: 55px;
@@ -398,7 +402,6 @@ $green: #276859;
       padding: 5vh 0 5vh 0;
     }
     .btn {
-      background: green;
       margin-bottom: 5vh;
       .link {
         color: black;
@@ -408,6 +411,15 @@ $green: #276859;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 0px) {
+  .cabin-block {
+    h3 {
+      padding: 3vh 0 3vh 0;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
   .my-res-small {
     width: 90vw;
     padding: 0 0 0 0;
@@ -442,32 +454,22 @@ $green: #276859;
       }
     }
   }
-  .meeting-time {
-    padding-bottom: 5vh;
-    display: flex;
-    flex-direction: column;
-    div {
-      padding-bottom: 10px;
-      width: 90%;
-      align-self: center;
-      padding-bottom: 5vw;
-      h3 {
-        font-size: 18px;
-      }
-      h4 {
-        font-size: 15px;
-      }
+
+  .actual {
+    margin-bottom: 5vh;
+    line-height: 36px;
+    h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      padding: 5vh 0 2vh 0;
+      text-align: center;
+    }
+    p {
+      padding: 2%;
     }
   }
 
-  .actual {
-    .cabin-title {
-      text-align: center;
-      text-transform: uppercase;
-      padding: 5vh 0 0 0;
-      font-size: 1.6rem;
-    }
-  }
   .fee {
     width: 50vw;
     display: flex;
@@ -504,7 +506,6 @@ $green: #276859;
 
   .landing-wrap {
     h1 {
-      margin-top: 15vh;
       font-size: 32px;
     }
     h2 {
@@ -513,7 +514,6 @@ $green: #276859;
     }
     div {
       padding-bottom: 4vw;
-
       .btn {
         padding: 15px 30px 15px 30px;
         margin-right: 1%;
@@ -536,7 +536,7 @@ $green: #276859;
   }
 
   .meeting-time {
-    width: 50vw;
+    width: 100vw;
     padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
@@ -548,20 +548,20 @@ $green: #276859;
       padding-bottom: 2vh;
     }
     p {
-      width: 70%;
+      width: 90%;
       padding-bottom: 5vh;
       align-self: center;
     }
     div {
       padding-bottom: 10px;
-      width: 60%;
+      width: 80%;
       align-self: center;
-      padding-bottom: 2vw;
+      padding-bottom: 5vw;
       h3 {
         font-size: 20px;
         color: $green;
         text-transform: uppercase;
-        padding-bottom: 10px;
+        padding-bottom: 2%;
       }
       h4 {
         text-align: left;
@@ -573,7 +573,6 @@ $green: #276859;
   .landing-wrap {
     h1 {
       margin-top: 15vh;
-      
     }
     h2 {
       padding-bottom: 30px;
@@ -597,6 +596,39 @@ $green: #276859;
         }
         .link-black {
           color: black;
+        }
+      }
+    }
+  }
+
+  //Mobile-Landing
+  $green: #276859;
+  .my-container {
+    background-color: #1e2430;
+    div {
+      color: white;
+      display: flex;
+      padding: 2%;
+      .mobile-info {
+        background-color: $green;
+        width: 80%;
+        flex-direction: column;
+        h2 {
+          text-transform: uppercase;
+          padding: 2vh 0vh 2vh 2vh;
+        }
+        p {
+          padding: 0vh 0vh 2vh 2vh;
+        }
+      }
+      .scroll-btn {
+        justify-content: center;
+        width: 20%;
+        background-color: $green;
+        padding-right: 5%;
+        .icon {
+          align-self: center;
+          font-size: 30px;
         }
       }
     }

@@ -3,8 +3,8 @@
     <v-container class="contact">
       <h2>Kontakt</h2>
       <h4>Vesterhavsgruppens ledelse</h4>
-      <p>Gruppens øvrige ledere kan kontaktes gennem gruppelederen.</p>
-      <div class="wrap">
+      <h6>Gruppens øvrige ledere kan kontaktes gennem gruppelederen.</h6>
+      <div class="contact-wrap">
         <div>
           <h5>Kasserer:</h5>
           <p>
@@ -48,22 +48,23 @@ export default {};
 <style lang="scss" scoped>
 @media only screen and (min-width: 1200px) {
   .contact {
-        width: 50vw;
+        width: 60vw;
         padding: 2% 0% 0% 0%;
     h2 {
       padding: 10px 0 10px 0;
       text-transform: uppercase;
+      font-size: 28px;
     }
     h5 {
       font-size: 16px;
     }
-    .wrap {
+    .contact-wrap {
       display: flex;
-      flex-flow: wrap;
-      padding: 0% 0% 5% 0%;
+      flex-direction: row;
+      flex-wrap: wrap;
       div {
         width: 50%;
-        padding-top: 4%;
+        padding: 5% 0 5% 0;
       }
     }
   }
@@ -95,8 +96,17 @@ export default {};
   .contact {
     width: 90%;
     h2 {
+      padding-top: 5vh;
       text-transform: uppercase;
       text-align: center;
+    }
+    h4 {
+      padding: 2%;
+      font-size: 16px;
+    }
+    h6 {
+      padding: 2%;
+      font-size: 12px;
     }
     h5 {
       font-size: 16px;
@@ -105,6 +115,7 @@ export default {};
       display: flex;
       flex-direction: column;
       padding: 10px;
+      width: 100%;
       div {
         width: 45%;
       }
